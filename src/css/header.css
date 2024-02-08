@@ -3,6 +3,7 @@
 }
 .header-wrap {
   background-color: #fbfbfb;
+  border: 1px solid #fbfbfb;
   border-radius: 8px;
   max-width: 335px;
   height: 42px;
@@ -38,12 +39,14 @@
 }
 .nav-menu-item {
   display: flex;
-  gap: 8px;
+  gap: 4px;
 }
 .nav-menu-list {
   display: flex;
 }
 .nav-menu-link {
+  width: 91px;
+  height: 40px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 9px;
@@ -60,7 +63,7 @@
 
 .nav-menu-link:hover,
 .nav-menu-link:focus {
-  background-color: #1b414b;
+  background-color: rgba(6, 39, 48, 1);
 }
 .soc-icon-item {
   display: none;
@@ -87,6 +90,8 @@
 
   .logo {
     font-size: 20px;
+    width: 70px;
+    height: 24px;
   }
 
   .mob-menu-btn {
@@ -108,6 +113,10 @@
     max-width: 1080px;
     padding: 0 30px;
     margin: 0 auto;
+  }
+  .logo {
+    width: 74px;
+    height: 24px;
   }
 }
 
