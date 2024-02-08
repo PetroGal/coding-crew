@@ -102,14 +102,10 @@ border: 1px solid rgba(251, 251, 251, 0.5);
 }
 /* ----------------------TABLET---------------------------------------- */
 @media screen and (min-width:768px){
-    .section-rent-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
     .rent-form{
         margin-bottom: 100px;
     }
+
     .section-rent{
         padding-bottom: 150px;
     }
@@ -146,8 +142,12 @@ border: 1px solid rgba(251, 251, 251, 0.5);
     .section-rent-img-container{
         max-width: 700px;
     }
+
 }
+
+
 /* ----------------------DESKTOP---------------------------------------- */
+
 @media screen and (min-width:1280px){
 
     .section-rent-img-container{
@@ -163,8 +163,13 @@ border: 1px solid rgba(251, 251, 251, 0.5);
         background: #fbfbfb;
         color:#1b414b;
     }
+
+}
+/* ----------------------DESKTOP---------------------------------------- */
+@media screen and (min-width:1440px){
     .section-rent-img-container{
         max-width: 768px;
     }
+
 }
 
