@@ -1,26 +1,29 @@
 .footer {
-  background-color: #1b414b;
   margin: 0 10px;
-  border-radius: 24px, 24px, 0px, 0px;
 }
 
 .footer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #1b414b;
+  border-radius: 24px 24px 0px 0px;
+  overflow: hidden;
 }
 
 .footer-menu {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 80px;
   padding-top: 40px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
-.footer-navigation {
+/* .footer-navigation {
   display: flex;
   flex-direction: row;
-}
+} */
 
 .footer-logo {
   color: #fbfbfb;
@@ -29,13 +32,15 @@
   font-size: 14px;
   line-height: 17px;
   letter-spacing: -3%;
-  margin-right: 37px;
+  /* margin-right: 37px; */
+  margin-left: 30px;
 }
 
 .footer-menu-list {
   display: flex;
   flex-direction: row;
   gap: 4px;
+  padding-right: 30px;
 }
 
 .footer-list-item {
@@ -57,17 +62,25 @@
   background-color: #fbfbfb;
 }
 
-.footer-icons {
+/* .footer-icons {
   display: flex;
   align-items: center;
   padding-bottom: 40px;
   justify-content: center;
-}
+} */
 
 .footer-icons-list {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 8px;
+  /* width: 100%; */
+}
+
+@media screen and (max-width: 767px) {
+  .footer-icons-list {
+    width: 100%;
+  }
 }
 
 .footer-icon-svg {
@@ -130,32 +143,49 @@
     align-items: baseline;
   }
 
-  .footer-menu .footer-icons {
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
+  .footer-menu {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
   }
 
-  .footer-menu {
+  .footer-menu-list {
+    padding-right: 0;
+  }
+
+  .footer-icons-list {
+    padding-right: 48px;
+  }
+
+  /* .footer-menu .footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  } */
+
+  /* .footer-menu {
     padding-top: 50px;
     padding-bottom: 0;
-    /* align-items: start;
-    justify-content: space-between; */
-  }
+    align-items: start;
+    justify-content: space-between;
+  } */
 
   /* .footer-navigation {
     justify-content: space-between;
   } */
 
   .footer-logo {
+    display: block;
+    margin-left: 0;
+    padding-left: 48px;
     font-size: 20px;
     line-height: 24px;
   }
 
-  .footer-icons {
+  /* .footer-icons {
     padding: 0;
     justify-content: baseline;
-  }
+  } */
 
   .footer-list-item {
     width: 91px;
