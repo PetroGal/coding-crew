@@ -20,11 +20,6 @@
   padding-bottom: 40px;
 }
 
-/* .footer-navigation {
-  display: flex;
-  flex-direction: row;
-} */
-
 .footer-logo {
   color: #fbfbfb;
   font-family: 'Inter';
@@ -32,7 +27,6 @@
   font-size: 14px;
   line-height: 17px;
   letter-spacing: -3%;
-  /* margin-right: 37px; */
   margin-left: 30px;
 }
 
@@ -62,19 +56,11 @@
   background-color: #fbfbfb;
 }
 
-/* .footer-icons {
-  display: flex;
-  align-items: center;
-  padding-bottom: 40px;
-  justify-content: center;
-} */
-
 .footer-icons-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 8px;
-  /* width: 100%; */
 }
 
 @media screen and (max-width: 767px) {
@@ -157,23 +143,6 @@
     padding-right: 48px;
   }
 
-  /* .footer-menu .footer-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  } */
-
-  /* .footer-menu {
-    padding-top: 50px;
-    padding-bottom: 0;
-    align-items: start;
-    justify-content: space-between;
-  } */
-
-  /* .footer-navigation {
-    justify-content: space-between;
-  } */
-
   .footer-logo {
     display: block;
     margin-left: 0;
@@ -181,11 +150,6 @@
     font-size: 20px;
     line-height: 24px;
   }
-
-  /* .footer-icons {
-    padding: 0;
-    justify-content: baseline;
-  } */
 
   .footer-list-item {
     width: 91px;
@@ -220,17 +184,7 @@
 
   .footer-container {
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-  }
-
-  .footer-menu .footer-icons {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .footer-slogan {
-    max-width: 693px;
   }
 }
 
