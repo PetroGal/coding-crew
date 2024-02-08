@@ -102,16 +102,15 @@ border: 1px solid rgba(251, 251, 251, 0.5);
 .rent-a-yacht-img {
 }
 /* ----------------------TABLET---------------------------------------- */
-@media screen and (min-width:768px){
-    .rent-form{
-        margin-bottom: 100px;
-    }
+@media screen and (min-width:768px) {
+
 
     .section-rent{
         padding-bottom: 150px;
     }
     .section-rent-container {
         display: flex;
+        
     }
     .section-rent-title{
         font-size: 48px;
@@ -142,6 +141,18 @@ border: 1px solid rgba(251, 251, 251, 0.5);
     }
     .section-rent-img-container{
         max-width: 700px;
+    }
+
+}
+@media screen and (min-width:768px) and (max-width:1279px){
+    .rent-form{
+        margin-bottom: 100px;
+    }
+    .section-rent-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
     }
 
 }
