@@ -1,0 +1,96 @@
+.mob-menu {
+  width: 375px;
+
+  background-color: #0e1823;
+  direction: fixed;
+}
+
+.menu-novigation {
+  display: flex;
+  width: 335px;
+  height: 42px;
+  top: 16px;
+  left: 20px;
+  border-radius: 8px;
+  border: 1px;
+  background-color: #fbfbfb;
+}
+.menu-novigation-text {
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 13px;
+  margin-right: 215px;
+  width: 52px;
+  height: 17px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+}
+.close-btn-menu {
+  background: transparent;
+  color: #055545;
+  border: none;
+  box-sizing: border-box;
+  width: 28px;
+  height: 28px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  cursor: pointer;
+  align-content: end;
+  justify-content: flex-end;
+}
+.btn-menu-icon {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.list-button {
+  display: flex;
+  flex-direction: column;
+  padding-left: 142px;
+  padding-right: 142px;
+  margin-top: 201px;
+  gap: 4px;
+  margin-bottom: 361px;
+}
+
+.button-btn-link {
+  font-family: Inter;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0em;
+  color: #fbfbfb;
+}
+.button-btn {
+  border-radius: 8px;
+  border-color: none;
+  padding: 15px 25px 15px 24px;
+  width: 91px;
+  background-color: #1b414b;
+  margin: 0 auto;
+  text-align: center;
+}
+.social-container-menumob {
+  display: flex;
+}
+.list-social-menumob {
+  display: flex;
+  padding-right: 143px;
+  padding-left: 144px;
+  padding-bottom: 40px;
+  gap: 8px;
+  width: 24px;
+  height: 24px;
+}
+.icons-social-mobmenu {
+  border-radius: 50%;
+  fill: #fbfbfb;
+}
