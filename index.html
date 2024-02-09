@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/coding-crew/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/coding-crew/assets/index-9d16fc39.css">
+    <link rel="stylesheet" href="/coding-crew/assets/index-3f9f186a.css">
   </head>
   <body>
     <header class="header-container">
@@ -122,7 +122,87 @@
       
       
       
-      
+      <section class="section-rent" id="rent-a-yacht">
+    <div class="container section-rent-container">
+        <div class="rent-form">
+            <h2 class="section-rent-title">Rent a yacht now</h2>
+            <form class="section-rent-form">
+                <div class="section-rent-form-box">              
+                    <label class="section-rent-form-label" for="user-name">                    
+                        <input
+                        type="text"
+                        class="section-rent-form-input"
+                        id="user-name"
+                        name="user-name"                      
+                        placeholder="Full Name"
+                        pattern="[a-zA-Zа-яА-Я]+"
+                        required
+                        />  
+                    </label>                
+                    <label class="section-rent-form-label" for="user-email">
+                        <input
+                        type="email"
+                        class="section-rent-form-input"
+                        id="user-email"
+                        name="email"                        
+                        placeholder="Email"
+                        pattern="[^\s@]+@[^\s@]+\.[^\s@]+"
+                        required
+                        />  
+                    </label>                  
+                    <label class="section-rent-form-label" for="user-phone">                    
+                        <input
+                        type="tel"
+                        class="section-rent-form-input"
+                        id="user-phone"
+                        name="user-phone"                        
+                        placeholder="Phone number"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        required
+                        />  
+                    </label>
+                    <label class="section-rent-form-label" for="comment">
+                    <textarea
+                    class="section-rent-form-textarea"
+                    name="comment"
+                    id="comment"
+                    placeholder="Comment"></textarea></label>
+                </div>            
+                <button class="section-rent-form-btn"
+                type="submit">
+                Send
+                </button>
+            </form>
+        </div>
+        <div class="section-rent-img-container">
+            <picture class="section-rent-img">
+                <source
+                media="(min-width:1440px)"
+                srcset="/coding-crew/assets/rent-a-yacht-desk-1440-1x-1e68ecb7.jpg 1x, /coding-crew/assets/rent-a-yacht-desk-1440-2x-2f50c778.jpg 2x"
+                />
+                <source
+                media="(min-width:1280px)"
+                srcset="/coding-crew/assets/rent-a-yacht-desk-1280-1x-69e574ab.jpg 1x, /coding-crew/assets/rent-a-yacht-desk-1280-2x-e34a98c3.jpg 2x"
+                />
+                <source
+                media="(min-width:768px)"
+                width="704"
+                heigh="534"
+                srcset="/coding-crew/assets/rent-a-yacht-tab-1x-0a942617.jpg 1x, /coding-crew/assets/rent-a-yacht-tab-2x-898a245a.jpg 2x"
+                />
+                <source
+                media="(max-width:767px)"
+                srcset="/coding-crew/assets/rent-a-yacht-mob-1x-3bbd6435.jpg 1x, /coding-crew/assets/rent-a-yacht-mob-2x-f65004b6.jpg 2x"
+                />
+                <img src="/coding-crew/assets/rent-a-yacht-desk-1440-1x-1e68ecb7.jpg"
+                alt="rent-a-yacht"
+                class="rent-a-yacht-img">
+            </picture>
+        </div>
+    </div>
+
+
+</section>
       <section class="rewievs">
     <div class="container">
         <h2 class="rewievs-title">
