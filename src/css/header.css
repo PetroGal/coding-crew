@@ -1,6 +1,8 @@
 .header-container {
   background: transparent;
   padding-top: 20px;
+  position: absolute;
+  width: 100%;
 }
 .header-wrap {
   background-color: #fbfbfb;
@@ -83,6 +85,9 @@
 
 /* -------MEDIA--768px------- */
 @media only screen and (min-width: 768px) {
+  .header-container {
+    padding-top: 32px;
+  }
   .header-wrap {
     max-width: 704px;
     height: 48px;
