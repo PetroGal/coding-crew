@@ -1,14 +1,15 @@
 .our_yachts-container {
   max-width: 375px;
   width: 100%;
-  padding-bottom: 80px;
   margin: 0 auto;
 }
 
 .our_yachts {
+  padding-bottom: 80px;
 }
 
 .our_yachts-title {
+  max-width: 319px;
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
@@ -108,10 +109,11 @@
 .our_yachts-button {
   display: block;
   margin: 0 auto;
+  width: 143px;
+  height: 46px;
   border: 1px solid rgba(251, 251, 251, 0.35);
   border-radius: 15px;
   padding: 14px 32px;
-  width: 141px;
   background-color: transparent;
   font-weight: 500;
   font-size: 14px;
@@ -132,25 +134,31 @@
 /* ========= Tablet ============ */
 
 @media screen and (min-width: 768px) {
-  .our_yachts-container {
-    max-width: 768px;
+  .our_yachts {
     padding-bottom: 150px;
   }
 
+  .our_yachts-container {
+    max-width: 768px;
+  }
+
   .our_yachts-title {
+    max-width: 645px;
+	 margin: 0 auto;
     font-size: 48px;
-    margin-bottom: 75px;
+
   }
 
   .our_yachts-list {
     display: flex;
     gap: 32px;
     margin-bottom: 50px;
+	 margin-top: 75px;
   }
 
   .our_yachts-item {
     width: calc((100% - 32px) / 2);
-    padding: 16px;
+    padding: 16px 16px 32px 16px;
   }
 
   .our_yachts-item:nth-child(3n + 2) {
@@ -179,7 +187,8 @@
     padding: 16px 40px;
     font-size: 18px;
     line-height: 1.1;
-    width: 179px;
+    height: 52px;
+    width: 181px;
   }
 }
 
@@ -188,7 +197,10 @@
 @media screen and (min-width: 1280px) {
   .our_yachts-container {
     max-width: 1280px;
-    padding-bottom: 150px;
+  }
+
+  .our_yachts-title {
+    max-width: 714px;
   }
 
   .our_yachts-list {
@@ -211,8 +223,7 @@
 
 @media screen and (min-width: 1440px) {
   .our_yachts-container {
-    max-width: 1280px;
-    padding-bottom: 150px;
+    max-width: 1440px;
   }
 
   .our_yachts-list {
