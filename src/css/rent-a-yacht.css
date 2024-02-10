@@ -161,8 +161,9 @@ border: 1px solid rgba(251, 251, 251, 0.5);
 
 
 @media screen and (min-width:1280px){
-
-
+    .section-rent{
+    padding-bottom: 152px;
+    }
     .section-rent-img-container{
         max-width: 658px;
         max-height: 534px;
