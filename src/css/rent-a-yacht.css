@@ -1,7 +1,5 @@
 .section-rent {
     padding-bottom: 80px;
-    
-
 }
 .container {
 }
@@ -105,12 +103,13 @@ border: 1px solid rgba(251, 251, 251, 0.5);
 @media screen and (min-width:768px) {
 
 
+
+
     .section-rent{
         padding-bottom: 150px;
     }
     .section-rent-container {
-        display: flex;
-        
+        display: flex;    
     }
     .section-rent-title{
         font-size: 48px;
@@ -125,7 +124,7 @@ border: 1px solid rgba(251, 251, 251, 0.5);
     .section-rent-form-input{
         font-size: 14px;
         height: 54px;
-        line-height: 1.28; 
+        line-height: 1.28;
     }
     .section-rent-form-textarea {
         width: 472px;
@@ -151,16 +150,18 @@ border: 1px solid rgba(251, 251, 251, 0.5);
     .section-rent-container {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        
+        align-items: center;    
     }
-
 }
+
 
 /* ----------------------DESKTOP---------------------------------------- */
 
-@media screen and (min-width:1280px){
 
+@media screen and (min-width:1280px){
+    .section-rent{
+    padding-bottom: 152px;
+    }
     .section-rent-img-container{
         max-width: 658px;
         max-height: 534px;

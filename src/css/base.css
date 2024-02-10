@@ -22,7 +22,9 @@ body {
 @media only screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding: 32px 25px 0 25px;
+    padding: 0 25px 0 25px;
+    margin: 0 auto;
+
   }
 }
 
