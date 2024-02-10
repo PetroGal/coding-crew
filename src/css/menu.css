@@ -1,9 +1,18 @@
-.mob-menu {
-  width: 375px;
-
+.backdrope {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
   background-color: #0e1823;
-  direction: fixed;
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .menu-novigation {
@@ -52,6 +61,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  fill: #055545;
 }
 
 .list-button {
@@ -70,7 +80,7 @@
   font-family: Inter;
   font-size: 9px;
   font-weight: 400;
-  line-height: 1.33;
+  line-height: 1.3;
   text-transform: uppercase;
   letter-spacing: 0em;
   color: #fbfbfb;
@@ -108,7 +118,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+
   padding-right: 143px;
   padding-left: 144px;
   padding-bottom: 40px;
@@ -116,6 +126,7 @@
 }
 .list-social-menumob {
   display: flex;
+  gap: 8px;
 }
 .icons-social-mobmenu {
   border-radius: 50%;
