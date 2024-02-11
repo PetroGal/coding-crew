@@ -1,0 +1,224 @@
+/*моб версия*/
+
+@media screen and (min-width: 320px) {
+  .advantages-container {
+    margin-bottom: 80px;
+  }
+
+  .advantages {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    column-gap: 0;
+    row-gap: 20px;
+  }
+
+  .advantages-h-two {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .advantages-ol {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 0;
+    row-gap: 44px;
+    margin: 0;
+    padding: 80px 0;
+    list-style-type: none;
+    counter-reset: item;
+    background: rgba(27, 65, 75, 1);
+    border-radius: 24px;
+  }
+
+  .advantages-li {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    width: 280px;
+    color: rgba(251, 251, 251, 1);
+    counter-increment: item;
+    position: relative;
+    padding: 0 20px;
+  }
+
+  .advantages-li::before {
+    content: counter(item, decimal-leading-zero);
+  }
+
+  .advantages-hr {
+    width: 100%;
+  }
+
+  .advantages-p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(251, 251, 251, 1);
+  }
+
+  .advantages-image > img {
+    border-radius: 24px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .advantages-container {
+    margin-bottom: 150px;
+  }
+
+  .advantages {
+    display: flex;
+    flex-direction: column;
+    width: 704px;
+    row-gap: 32px;
+  }
+
+  .advantages-ol {
+    width: 704px;
+    padding: 90px 32px;
+    column-gap: 32px;
+    row-gap: 59px;
+  }
+
+  .advantages-li {
+    font-size: 32px;
+    line-height: 32px;
+    width: 304px;
+  }
+
+  .advantages-image > img {
+    width: 704px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .advantages-container {
+    width: 100%;
+  }
+
+  .advantages {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .advantages-ol {
+    display: flex;
+    flex-wrap: wrap;
+    width: 716px;
+    column-gap: 44px;
+    row-gap: 44px;
+  }
+
+  .advantages-li {
+    width: 280px;
+  }
+
+  .advantages-p {
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+  }
+
+  .advantages-image > img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .advantages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 32px;
+    width: 1340px;
+    margin: 0 auto 150px;
+  }
+
+  .advantages-ol {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 44px;
+
+    padding: 0;
+    margin: 0;
+    background: rgba(27, 65, 75, 1);
+    border-radius: 24px;
+    padding: 90px 50px;
+    width: 768px;
+  }
+
+  .advantages-li {
+    display: flex;
+    flex-direction: column;
+    width: 318px;
+    height: 100px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.05em;
+  }
+
+  .advantages-hr {
+    height: 2px;
+    border-radius: 18px;
+    width: 318px;
+    color: rgba(251, 251, 251, 0.1);
+  }
+
+  .advantages-p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+  .advantages-image > img {
+    width: 540px;
+    height: 424px;
+
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/*
+
+  https://github.com/PetroGal/coding-crew/branches
+
+  .advantages-image-dt {
+    background-image: url(../src/img/advantages/advantages-desk-1440-1x.jpg);
+
+    width: 540px;
+    height: 420px;
+    border-radius: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .advantages-image-dt {
+      background-image: url(../src/img/advantages/advantages-desk-1440-2x.jpg);
+    }
+  }*/
