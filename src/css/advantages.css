@@ -1,227 +1,131 @@
-/*моб версия*/
-
-.advantages-container {
-  margin: 0 auto;
-}
-
-.advantages {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  column-gap: 0;
-  row-gap: 20px;
-}
-
-.advantages-h-two {
+/* ======== Advantages ============ */
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
   border: 0;
+  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-.advantages-ol {
+.advantages {
+  padding-bottom: 80px;
+}
+.container {
+}
+.advantages-container {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  column-gap: 0;
-  row-gap: 44px;
-  margin: 0;
-  padding: 80px 0;
-  list-style-type: none;
-  counter-reset: item;
-  background: rgba(27, 65, 75, 1);
-  border-radius: 24px;
+  flex-direction: column;
+  gap: 20px;
 }
-
-.advantages-li {
-  font-family: Inter;
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 28px;
-  letter-spacing: -0.05em;
-  text-align: left;
-  width: 280px;
-  color: rgba(251, 251, 251, 1);
-  counter-increment: item;
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  padding: 80px 20px;
+  background-color: #1b414b;
+  border-radius: 24px;
+  counter-reset: num;
+  list-style: none;
+}
+.advantages-item {
+  counter-increment: num;
   position: relative;
-  padding: 0 20px;
+  margin-top: 64px;
 }
-
-.advantages-li::before {
-  content: counter(item, decimal-leading-zero);
-}
-
-.advantages-hr {
+.advantages-item-content {
   width: 100%;
+  height: 100%;
+  position: relative;
 }
-
-.advantages-p {
-  font-family: Inter;
+.advantages-item::before {
+  content: '0' counter(num);
+  position: absolute;
+  left: 0;
+  top: -64px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #fbfbfb;
+}
+.advantages-item-text {
+  max-width: 292px;
   font-size: 12px;
-  font-weight: 400;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: -0.02em;
-  text-align: left;
-  color: rgba(251, 251, 251, 1);
+  color: #fbfbfb;
+  opacity: 0.8;
 }
-
-.advantages-image > img {
-  border-radius: 24px;
+.first-item-text {
+  max-width: 238px;
+}
+.advantages-item-text:before {
+  content: '';
+  position: absolute;
   width: 100%;
+  top: -18px;
+  left: 0;
+  background-color: rgba(251, 251, 251, 0.1);
+  border-radius: 18px;
+  height: 2px;
 }
-
+.advantages-image-wrapper {
+}
+.advantages-image {
+  border-radius: 24px;
+}
+/* ----- Tablet -------------- */
 @media screen and (min-width: 768px) {
+  .advantages {
+    padding-bottom: 150px;
+  }
   .advantages-container {
     max-width: 768px;
-    margin-bottom: 150px;
+    gap: 32px;
   }
-
-  .advantages {
-    display: flex;
-    flex-direction: column;
-    width: 704px;
-    row-gap: 32px;
-  }
-
-  .advantages-ol {
-    width: 704px;
+  .advantages-list {
+    flex-direction: row;
+    gap: 44px 32px;
     padding: 90px 32px;
-    column-gap: 32px;
-    row-gap: 59px;
+    flex-wrap: wrap;
   }
-
-  .advantages-li {
-    font-size: 32px;
-    line-height: 32px;
-    width: 304px;
+  .advantages-item {
+    width: calc((100% - 32px) / 2);
   }
-
-  .advantages-image > img {
-    width: 704px;
+  .advantages-item-text {
+    font-size: 13px;
+    line-height: 1.15;
   }
 }
-
+/* ----- Desktop 1280  -------------- */
 @media screen and (min-width: 1280px) {
   .advantages-container {
     max-width: 1280px;
-  }
-
-  .advantages {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .advantages-ol {
-    display: flex;
-    flex-wrap: wrap;
-    width: 716px;
-    column-gap: 44px;
-    row-gap: 44px;
-  }
-
-  .advantages-li {
-    width: 280px;
-  }
-
-  .advantages-p {
-    font-size: 13px;
-    line-height: 15px;
-    letter-spacing: -0.02em;
-  }
-
-  .advantages-image > img {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .advantages-container {
-    max-width: 1440px;
-  }
-
-  .advantages {
-    display: flex;
     flex-direction: row;
-    align-items: center;
-    column-gap: 32px;
-    width: 1340px;
-    margin: 0 auto 150px;
   }
-
-  .advantages-ol {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 32px;
-    row-gap: 44px;
-
-    padding: 0;
-    margin: 0;
-    background: rgba(27, 65, 75, 1);
-    border-radius: 24px;
+  .advantages-list {
     padding: 90px 50px;
-    width: 768px;
   }
-
-  .advantages-li {
-    display: flex;
-    flex-direction: column;
-    width: 318px;
-    height: 100px;
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 32px;
-    letter-spacing: -0.05em;
-  }
-
-  .advantages-hr {
-    height: 2px;
-    border-radius: 18px;
-    width: 318px;
-    color: rgba(251, 251, 251, 0.1);
-  }
-
-  .advantages-p {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: -0.02em;
-    text-align: left;
-  }
-
-  .advantages-image > img {
-    width: 540px;
+  .advantages-image {
+    max-width: 432px;
     height: 424px;
-
-    margin: 0;
-    padding: 0;
   }
 }
-
-/*
-
-  https://github.com/PetroGal/coding-crew/branches
-
-  .advantages-image-dt {
-    background-image: url(../src/img/advantages/advantages-desk-1440-1x.jpg);
-
-    width: 540px;
-    height: 420px;
-    border-radius: 24px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
+/* ----- Desktop 1280  -------------- */
+@media screen and (min-width: 1280px) {
+  .advantages-container {
+    max-width: 1280px;
+    flex-direction: row;
   }
-
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .advantages-image-dt {
-      background-image: url(../src/img/advantages/advantages-desk-1440-2x.jpg);
-    }
-  }*/
+  .advantages-list {
+    padding: 90px 50px;
+  }
+  .advantages-image {
+    max-width: 540px;
+  }
+}
