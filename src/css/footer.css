@@ -49,6 +49,7 @@
   border-radius: 8px;
   padding: 15px 12px 15px 12px;
   text-transform: uppercase;
+  cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -63,6 +64,20 @@
   flex-direction: row;
   justify-content: center;
   gap: 8px;
+}
+
+@media screen and (max-width: 374px) {
+  .footer-menu-list {
+    padding-right: 0;
+  }
+  .footer-menu {
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .footer-logo {
+    margin-left: 0;
+    padding-right: 10px;
+  }
 }
 
 @media screen and (max-width: 767px) {
