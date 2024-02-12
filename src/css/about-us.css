@@ -1,19 +1,22 @@
 .about-us {
-	/* border-radius: 24px; */
-	margin-bottom: 80px;
+  /* border-radius: 24px; */
+  margin-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -50px;
 }
 
 .about-us-container {
-	max-width: 375px;
-	margin: 0 auto;
-	border-radius: 30px;
-	background-color: #FBFBFB;
-
+  max-width: 375px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #fbfbfb;
 }
 
 .about-us-text {
-	padding: 40px 20px;
-	/* background-color: #FBFBFB; */
+  padding: 40px 20px;
+  border-radius: 24px;
+  /* background-color: #FBFBFB; */
 }
 
 .yachtjet {
@@ -50,13 +53,12 @@ ul .art-technology {
 }
 
 .img-yacht {
-	border-radius: 30px;
+  border-radius: 30px;
 }
 
 .yacht-img {
-	border-radius: 30px;
-	/* margin-bottom: 295px; */
-
+  border-radius: 30px;
+  /* margin-bottom: 295px; */
 }
 
 @media only screen and (min-width: 768px) {
@@ -64,6 +66,7 @@ ul .art-technology {
     margin-bottom: 150px;
     padding-left: 32px;
     padding-right: 32px;
+    margin-top: -50px;
   }
 
   .about-us-container {
@@ -99,6 +102,10 @@ ul .art-technology {
 }
 
 @media only screen and (min-width: 1280px) {
+  .about-us {
+    margin-top: -35px;
+  }
+
   .about-us-container {
     max-width: 1280px;
     margin: 0 auto;
