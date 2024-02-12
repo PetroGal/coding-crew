@@ -37,7 +37,7 @@
   padding-right: 30px;
 }
 
-.footer-list-item {
+.footer-list-link {
   min-width: 66px;
   color: #fbfbfb;
   font-family: 'Inter';
@@ -52,12 +52,15 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-list-item:hover,
-.footer-list-item:focus {
+.footer-list-link:hover,
+.footer-list-link:focus {
   color: #1b414b;
   background-color: #fbfbfb;
 }
 
+.yachts {
+  padding: 15px 15px 15px 15px;
+}
 .footer-icons-list {
   display: flex;
   flex-direction: row;
@@ -154,7 +157,7 @@
     letter-spacing: 0.03;
   }
 
-  .footer-list-item {
+  .footer-list-link {
     width: 91px;
     height: 40px;
     padding: 15px 25px 15px 24px;
@@ -205,7 +208,7 @@
     letter-spacing: -0.03em;
   }
 
-  .footer-list-item {
+  .footer-list-link {
     height: 40px;
     text-transform: uppercase;
     line-height: 1.3;
