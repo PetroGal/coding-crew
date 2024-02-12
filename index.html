@@ -131,39 +131,43 @@
       surrounded by breathtaking
       views and state-of-the-art amenities.
     </p>
-    <a href="" class="hero-btn">Yacht rental</a>
+    <a href="#yacht-rental" class="hero-btn">Yacht rental</a>
   </div>
 </section>
 
-      <section class="about-us">
-  <div class="about-us-container">
-    <div class="about-us-text">
-      <h2 class="yachtjet">
-        YachtJet fleet is here to take you on the ultimate adventure
-      </h2>
-      <ul class="about-us-list">
-        <li class="about-us-items">
-          <p class="art-technology same-container">
-            From spacious decks to state-of-the-art technology, our yachts are
-            designed to provide the perfect blend of luxury and functionality.
-          </p>
-        </li>
-        <li class="about-us-items">
-          <p class="yacht-you-choose same-container">
-            Take a look at our selection below and choose the yacht that matches
-            your needs and preferences.No matter which yacht you choose, our
-            experienced crew will ensure that your journey is smooth and
-            enjoyable. Book now and get ready for an unforgettable adventure on
-            the high seas.
-          </p>
-        </li>
-      </ul>
-    </div>
-    <picture class="img-yacht">
-      <source
-        srcset="/coding-crew/assets/about-us-desk-1280-1x-e4896dd1.jpg 1x, /coding-crew/assets/about-us-desk-1280-2x-ccdb94c2.jpg 2x"
-        media="(min-width:1440px)"
-      />
+      
+<section class="about-us" id="about-us">
+	<div class="about-us-container">
+		<div class="about-us-text">
+			<h2 class="yachtjet">YachtJet fleet is here to take you on the ultimate adventure</h2>
+			<ul class="about-us-list">
+				<li class="about-us-items">
+					<p class="art-technology same-container">From spacious decks to state-of-the-art technology, our yachts
+						are
+						designed to
+						provide
+						the
+						perfect blend
+						of luxury
+						and functionality.</p>
+				</li>
+				<li class="about-us-items">
+					<p class="yacht-you-choose same-container">Take a look at our selection below and choose the yacht that
+						matches
+						your needs and
+						preferences.No matter which
+						yacht you choose, our experienced crew will ensure that your journey is smooth and enjoyable. Book now
+						and
+						get
+						ready for an unforgettable adventure on the high seas.
+					</p>
+				</li>
+			</ul>
+		</div>
+		<picture class="img-yacht">
+			<source srcset="../img/about-us/about-us-desk-1280-1x.jpg 1x, ../img/about-us/about-us-desk-1280-2x.jpg 2x"
+				media="(min-width: 1440px)" />
+
 
       <source
         srcset="/coding-crew/assets/about-us-desk-1280-1x-e4896dd1.jpg 1x, /coding-crew/assets/about-us-desk-1280-2x-ccdb94c2.jpg 2x"
@@ -190,7 +194,7 @@
   </div>
 </section>
 
-      <section class="our_yachts" id="#our-yachts">
+      <section class="our_yachts" id="our-yachts">
   <div class="container our_yachts-container">
     <h2 class="our_yachts-title">
       Choose your dream yacht and sail away into the sunset
@@ -329,7 +333,7 @@
       </li>
     </ul>
     <div class="our_yachts-button">
-      <a href="#rent-a-yacht">Yacht rental</a>
+      <a href="#yacht-rental">Yacht rental</a>
     </div>
   </div>
 </section>
@@ -397,53 +401,84 @@
   </div>
 </section>
 
-      <section class="section-rent" id="rent-a-yacht">
-  <div class="container section-rent-container">
-    <div class="rent-form">
-      <h2 class="section-rent-title">Rent a yacht now</h2>
-      <form class="section-rent-form">
-        <div class="section-rent-form-box">
-          <label class="section-rent-form-label" for="user-name">
-            <input
-              type="text"
-              class="section-rent-form-input"
-              id="user-name"
-              name="user-name"
-              placeholder="Full Name"
-              pattern="[a-zA-Zа-яА-Я]+"
-              required
-            />
-          </label>
-          <label class="section-rent-form-label" for="user-email">
-            <input
-              type="email"
-              class="section-rent-form-input"
-              id="user-email"
-              name="email"
-              placeholder="Email"
-              pattern="[^\s@]+@[^\s@]+\.[^\s@]+"
-              required
-            />
-          </label>
-          <label class="section-rent-form-label" for="user-phone">
-            <input
-              type="tel"
-              class="section-rent-form-input"
-              id="user-phone"
-              name="user-phone"
-              placeholder="Phone number"
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-              required
-            />
-          </label>
-          <label class="section-rent-form-label" for="comment">
-            <textarea
-              class="section-rent-form-textarea"
-              name="comment"
-              id="comment"
-              placeholder="Comment"
-            ></textarea>
-          </label>
+      
+<section class="section-rent" id="yacht-rental">
+    <div class="container section-rent-container">
+        <div class="rent-form">
+            <h2 class="section-rent-title">Rent a yacht now</h2>
+            <form class="section-rent-form">
+                <div class="section-rent-form-box">              
+                    <label class="section-rent-form-label" for="user-name">                    
+                        <input
+                        type="text"
+                        class="section-rent-form-input"
+                        id="user-name"
+                        name="user-name"                      
+                        placeholder="Full Name"
+                        pattern="[a-zA-Zа-яА-Я]+"
+                        required
+                        />  
+                    </label>                
+                    <label class="section-rent-form-label" for="user-email">
+                        <input
+                        type="email"
+                        class="section-rent-form-input"
+                        id="user-email"
+                        name="email"                        
+                        placeholder="Email"
+                        pattern="[^\s@]+@[^\s@]+\.[^\s@]+"
+                        required
+                        />  
+                    </label>                  
+                    <label class="section-rent-form-label" for="user-phone">                    
+                        <input
+                        type="tel"
+                        class="section-rent-form-input"
+                        id="user-phone"
+                        name="user-phone"                        
+                        placeholder="Phone number"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        required
+                        />  
+                    </label>
+                    <label class="section-rent-form-label" for="comment">
+                    <textarea
+                    class="section-rent-form-textarea"
+                    name="comment"
+                    id="comment"
+                    placeholder="Comment"></textarea></label>
+                </div>            
+                <button class="section-rent-form-btn"
+                type="submit">
+                Send
+                </button>
+            </form>
+        </div>
+        <div class="section-rent-img-container">
+            <picture class="section-rent-img">
+                <source
+                media="(min-width:1440px)"
+                srcset="/coding-crew/assets/rent-a-yacht-desk-1440-1x-1e68ecb7.jpg 1x, /coding-crew/assets/rent-a-yacht-desk-1440-2x-2f50c778.jpg 2x"
+                />
+                <source
+                media="(min-width:1280px)"
+                srcset="/coding-crew/assets/rent-a-yacht-desk-1280-1x-69e574ab.jpg 1x, /coding-crew/assets/rent-a-yacht-desk-1280-2x-e34a98c3.jpg 2x"
+                />
+                <source
+                media="(min-width:768px)"
+                width="704"
+                heigh="534"
+                srcset="/coding-crew/assets/rent-a-yacht-tab-1x-0a942617.jpg 1x, /coding-crew/assets/rent-a-yacht-tab-2x-898a245a.jpg 2x"
+                />
+                <source
+                media="(max-width:767px)"
+                srcset="/coding-crew/assets/rent-a-yacht-mob-1x-3bbd6435.jpg 1x, /coding-crew/assets/rent-a-yacht-mob-2x-f65004b6.jpg 2x"
+                />
+                <img src="/coding-crew/assets/rent-a-yacht-desk-1440-1x-1e68ecb7.jpg"
+                alt="rent-a-yacht"
+                class="rent-a-yacht-img">
+            </picture>
+
         </div>
         <button class="section-rent-form-btn" type="submit">Send</button>
       </form>
@@ -478,7 +513,7 @@
   </div>
 </section>
 
-      <section class="rewievs">
+      <section class="rewievs" id="reviews">
     <div class="container">
         <h2 class="rewievs-title">
             YachtJet take pride in providing the best possible service and experience to our customers
