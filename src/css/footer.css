@@ -14,7 +14,7 @@
 .footer-menu {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   row-gap: 80px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -27,14 +27,14 @@
   font-size: 14px;
   line-height: 17px;
   letter-spacing: -0.03em;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 .footer-menu-list {
   display: flex;
   flex-direction: row;
   gap: 4px;
-  padding-right: 30px;
+  /* padding-right: 30px; */
 }
 
 .footer-list-link {
