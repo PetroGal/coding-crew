@@ -100,7 +100,7 @@ ul .art-technology {
     /* width: 385px; */
   }
 }
-
+	
 @media only screen and (min-width: 1280px) {
   .about-us {
     margin-top: -35px;
@@ -126,6 +126,7 @@ ul .art-technology {
     width: 404px;
   }
 }
+
 
 @media only screen and (min-width: 1440px) {
   .about-us-container {
