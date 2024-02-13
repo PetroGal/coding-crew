@@ -1,0 +1,132 @@
+/* ======== Advantages ============ */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advantages {
+  padding-bottom: 80px;
+}
+
+.advantages-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  padding: 80px 20px;
+  background-color: #1b414b;
+  border-radius: 24px;
+  counter-reset: num;
+  list-style: none;
+}
+.advantages-item {
+  counter-increment: num;
+  position: relative;
+  margin-top: 64px;
+}
+.advantages-item-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.advantages-item::before {
+  content: '0' counter(num);
+  position: absolute;
+  left: 0;
+  top: -64px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #fbfbfb;
+}
+.advantages-item-text {
+  max-width: 292px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  opacity: 0.8;
+}
+.first-item-text {
+  max-width: 238px;
+}
+.advantages-item-text:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: -18px;
+  left: 0;
+  background-color: rgba(251, 251, 251, 0.1);
+  border-radius: 18px;
+  height: 2px;
+}
+
+.advantages-image {
+  border-radius: 24px;
+}
+/* ----- Tablet -------------- */
+
+@media screen and (min-width: 768px) {
+  .advantages {
+    padding-bottom: 150px;
+  }
+  .advantages-container {
+    max-width: 768px;
+    gap: 32px;
+  }
+  .advantages-list {
+    flex-direction: row;
+    gap: 44px 32px;
+    padding: 90px 32px;
+    flex-wrap: wrap;
+  }
+  .advantages-item {
+    width: calc((100% - 32px) / 2);
+  }
+  .advantages-item-text {
+    font-size: 13px;
+    line-height: 1.15;
+  }
+}
+/* ----- Desktop 1280  -------------- */
+
+@media screen and (min-width: 1280px) {
+  .advantages-container {
+    max-width: 1280px;
+    flex-direction: row;
+  }
+  .advantages-list {
+    padding: 90px 50px;
+  }
+  .advantages-image {
+    max-width: 432px;
+    height: 424px;
+  }
+}
+/* ----- Desktop 1440  -------------- */
+
+@media screen and (min-width: 1440px) {
+  .advantages-container {
+    max-width: 1440px;
+    flex-direction: row;
+  }
+  .advantages-list {
+    padding: 90px 50px;
+  }
+  .advantages-image {
+    max-width: 540px;
+  }
+}
