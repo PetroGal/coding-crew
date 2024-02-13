@@ -82,6 +82,9 @@
 
 .list-button {
   padding-bottom: 259px;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
 }
 
 .button-btn-link {
