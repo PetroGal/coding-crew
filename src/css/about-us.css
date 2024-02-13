@@ -1,16 +1,23 @@
 .about-us {
-  /* border-radius: 24px; */
-  margin-bottom: 80px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: -50px;
+	/* border-radius: 24px; */
+	padding-bottom: 80px;
 }
 
 .about-us-container {
-  max-width: 375px;
-  margin: 0 auto;
-  border-radius: 30px;
-  background-color: #fbfbfb;
+
+	max-width: 375px;
+	margin: 0 auto;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 30px;
+	/* background-color: #FBFBFB; */
+	background-color: #0E1823;
+
+}
+
+.about-us-block {
+		background-color: #FBFBFB;
+		border-radius: 30px;
 }
 
 .about-us-text {
@@ -62,44 +69,92 @@ ul .art-technology {
 }
 
 @media only screen and (min-width: 768px) {
-  .about-us {
-    margin-bottom: 150px;
-    padding-left: 32px;
-    padding-right: 32px;
-    margin-top: -50px;
-  }
 
-  .about-us-container {
-    max-width: 768px;
-    padding: 0;
-  }
-  .about-us-text {
-    padding: 50px 136px 50px 32px;
-    background: #fbfbfb;
-  }
 
-  .yachtjet {
-    font-size: 48px;
-    margin-bottom: 50px;
-    width: 536px;
-  }
+	.about-us {
+		padding-bottom: 150px;
+	}
 
-  .about-us-list {
-    width: 389px;
-  }
+	.about-us-container {
+	  max-width: 768px;
+	  padding: 0;
+	  padding-right: 32px;
+	  padding-left: 32px;
+	}
+	.about-us-text {
+		padding: 50px 136px 50px 32px;
+		background: #FBFBFB;
+	}
 
-  ul .art-technology {
-    font-size: 23px;
-    /* width: 389px; */
-  }
+	.yachtjet {
+		font-size: 48px;
+		margin-bottom: 50px;
+		width: 536px;
 
-  .yacht-you-choose {
-    font-size: 13px;
-    line-height: 1.15;
-    letter-spacing: -0.02em;
-    /* width: 385px; */
-  }
-}
+	}
+
+	.about-us-list {
+		width: 389px;
+	}
+
+	ul .art-technology {
+
+		font-size: 23px;
+		/* width: 389px; */
+	}
+
+	.yacht-you-choose {
+		font-size: 13px;
+		line-height: 1.15;
+		letter-spacing: -0.26px;
+		/* width: 385px; */
+	}
+
+ }
+ 
+ @media only screen and (min-width: 1280px) {
+	.about-us-container {
+	  max-width: 1280px;
+	  margin: 0 auto;
+	  padding-right: 50px;
+	  padding-left: 50px;
+
+	}
+
+	.about-us-text {
+		padding: 50px 50px 100px 50px;
+		display: flex;
+	}
+
+	.yachtjet {
+		width: 537px;
+		margin-bottom: 0;
+		margin-right: 189px;
+	}
+
+	.about-us-list {
+		width: 354px;
+	}
+
+
+
+
+ }
+
+ @media only screen and (min-width: 1440px) {
+	.about-us-container {
+	  max-width: 1440px;
+	  margin: 0 auto;
+	}
+
+	.yachtjet {
+		margin-right: 299px;
+	}
+
+	.about-us-list {
+		width: 404px;
+	}
+
 	
 @media only screen and (min-width: 1280px) {
   .about-us {
