@@ -1,0 +1,88 @@
+
+<section class="section-rent" id="yacht-rental">
+    <div class="container section-rent-container">
+        <div class="rent-form">
+            <h2 class="section-rent-title">Rent a yacht now</h2>
+            <form class="section-rent-form">
+                <div class="section-rent-form-box">              
+                    <label class="section-rent-form-label" for="user-name">                    
+                        <input
+                        type="text"
+                        class="section-rent-form-input"
+                        id="user-name"
+                        name="user-name"                      
+                        placeholder="Full Name"
+                        pattern="[a-zA-Zа-яА-Я]+"
+                        required
+                        />  
+                    </label>                
+                    <label class="section-rent-form-label" for="user-email">
+                        <input
+                        type="email"
+                        class="section-rent-form-input"
+                        id="user-email"
+                        name="email"                        
+                        placeholder="Email"
+                        pattern="[^\s@]+@[^\s@]+\.[^\s@]+"
+                        required
+                        />  
+                    </label>                  
+                    <label class="section-rent-form-label" for="user-phone">                    
+                        <input
+                        type="tel"
+                        class="section-rent-form-input"
+                        id="user-phone"
+                        name="user-phone"                        
+                        placeholder="Phone number"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        required
+                        />  
+                    </label>
+                    <label class="section-rent-form-label" for="comment">
+                    <textarea
+                    class="section-rent-form-textarea"
+                    name="comment"
+                    id="comment"
+                    placeholder="Comment"></textarea></label>
+                </div>            
+                <button class="section-rent-form-btn"
+                type="submit">
+                Send
+                </button>
+            </form>
+        </div>
+        <div class="section-rent-img-container">
+            <picture class="section-rent-img">
+                <source
+                media="(min-width:1440px)"
+                srcset="
+                ./img/rent-a-yacht/rent-a-yacht-desk-1440-1x.jpg 1x,
+                ./img/rent-a-yacht/rent-a-yacht-desk-1440-2x.jpg 2x
+                "
+                />
+                <source
+                media="(min-width:1280px)"
+                srcset="./img/rent-a-yacht/rent-a-yacht-desk-1280-1x.jpg 1x,
+                ./img/rent-a-yacht/rent-a-yacht-desk-1280-2x.jpg 2x
+                "
+                />
+                <source
+                media="(min-width:768px)"
+                width="704"                
+                srcset="./img/rent-a-yacht/rent-a-yacht-tab-1x.jpg 1x,
+                ./img/rent-a-yacht/rent-a-yacht-tab-2x.jpg 2x
+                "
+                />
+                <source
+                media="(max-width:767px)"
+                srcset="./img/rent-a-yacht/rent-a-yacht-mob-1x.jpg 1x,
+                ./img/rent-a-yacht/rent-a-yacht-mob-2x.jpg 2x
+                "
+                />
+                <img src="./img/rent-a-yacht/rent-a-yacht-desk-1440-1x.jpg"
+                alt="rent-a-yacht"
+                class="rent-a-yacht-img">
+            </picture>
+        </div>      
+    </div>  
+</section>
