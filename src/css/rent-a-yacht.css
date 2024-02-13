@@ -86,7 +86,9 @@ border: 1px solid rgba(251, 251, 251, 0.5);
     line-height: .28;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.section-rent-form-btn:active{
+.section-rent-form-btn:active,
+.section-rent-form-btn:focus,
+.section-rent-form-btn:hover{
     background: #fbfbfb;
     color: #1b414b;
 }
