@@ -69,19 +69,6 @@
   gap: 8px;
 }
 
-@media screen and (max-width: 374px) {
-  .footer-menu-list {
-    padding-right: 0;
-  }
-  .footer-menu {
-    justify-content: center;
-  }
-  .footer-logo {
-    margin-left: 0;
-    padding-right: 10px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .footer-icons-list {
     width: 100%;
