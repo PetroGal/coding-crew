@@ -71,23 +71,27 @@
   border: 1px solid rgba(251, 251, 251, 0.5);
 }
 .section-rent-form-btn {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 122px;
-  height: 46px;
-  border-radius: 15px;
-  background: #1b414b;
-  border: none;
-  color: #fbfbfb;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 0.28;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 46px;
+    border-radius: 15px;
+    background: #1b414b;
+    border: none;
+    color: #fbfbfb;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: .28;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.section-rent-form-btn:active {
-  background: #fbfbfb;
-  color: #1b414b;
+.section-rent-form-btn:active,
+.section-rent-form-btn:focus,
+.section-rent-form-btn:hover{
+    background: #fbfbfb;
+    color: #1b414b;
+
 }
 .section-rent-img-container {
   border-radius: 27px;
