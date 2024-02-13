@@ -1,6 +1,6 @@
 .backdrope {
   width: 100%;
-  height: 100%;
+  max-height: 812px;
   position: fixed;
   top: 0;
   background-color: #0e1823;
@@ -17,22 +17,20 @@
 
 .menu-novigation {
   display: flex;
-  width: 335px;
+  width: 100%;
   height: 42px;
-  top: 16px;
-  left: 20px;
+  margin-top: 16px;
   border-radius: 8px;
   border: 1px;
   background-color: #fbfbfb;
-  align-items: end;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .menu-novigation-text {
   padding-left: 20px;
-  padding-top: 12px;
-  padding-bottom: 13px;
-  margin-right: 215px;
+  margin-top: 12px;
+  margin-bottom: 12px;
   font-family: Inter;
   font-size: 14px;
   font-weight: 500;
@@ -50,9 +48,9 @@
   height: 28px;
   margin-top: 7px;
   margin-bottom: 7px;
+  margin-right: 20px;
   display: flex;
   padding: 0;
-  margin-right: 20px;
 }
 
 .btn-menu-icon {
@@ -63,13 +61,17 @@
   justify-content: center;
   fill: #055545;
 }
+.mn-container {
+  justify-content: baseline;
+}
 
 .list-button {
   display: flex;
   flex-direction: column;
   padding-left: 142px;
   padding-right: 142px;
-  margin-top: 201px;
+  padding-top: 259px;
+  padding-bottom: 259px;
   gap: 4px;
   text-align: center;
   align-items: center;
@@ -113,20 +115,16 @@
   border-radius: 8px;
   border-color: none;
 }
-.social-container-menumob {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
 
-  padding-right: 143px;
-  padding-left: 144px;
-  padding-bottom: 40px;
-  margin-top: 361px;
-}
 .list-social-menumob {
   display: flex;
   gap: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-right: 143px;
+  padding-left: 144px;
+  padding-bottom: 40px;
 }
 .icons-social-mobmenu {
   border-radius: 50%;
