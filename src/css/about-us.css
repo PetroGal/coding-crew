@@ -1,15 +1,16 @@
 .about-us {
-	/* border-radius: 24px; */
-	padding-bottom: 80px;
+  /* border-radius: 24px; */
+  margin-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -50px;
 }
 
-
 .about-us-container {
-	max-width: 375px;
-	margin: 0 auto;
-	border-radius: 30px;
-	background-color: #FBFBFB;
-
+  max-width: 375px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #fbfbfb;
 }
 
 .about-us-text {
@@ -18,146 +19,126 @@
 	border-radius: 30px;
 }
 
-
 .yachtjet {
-	color: #1B414B;
-	font-family: Inter;
-	font-size: 28px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 1;
-	letter-spacing: -0.02em;
-	margin-bottom: 40px;
+  color: #1b414b;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
 }
-
-
-
 
 ul .art-technology {
-	margin-bottom: 20px;
-	color: #1B414B;
-	font-family: Inter;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 1;
-	letter-spacing: -0.02em;
+  margin-bottom: 20px;
+  color: #1b414b;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.02em;
 }
-
 
 .yacht-you-choose {
-	color: #040306;
-	font-family: Inter;
-	font-size: 12px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 1.17; 
-	letter-spacing: -0.02em;
-	opacity: 0.4;
+  color: #040306;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  opacity: 0.4;
 }
-
 
 .img-yacht {
-	border-radius: 30px;
+  border-radius: 30px;
 }
-
 
 .yacht-img {
-	border-radius: 30px;
-	/* margin-bottom: 295px; */
+  border-radius: 30px;
+  /* margin-bottom: 295px; */
+}
 
+@media only screen and (min-width: 768px) {
+  .about-us {
+    margin-bottom: 150px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: -50px;
+  }
+
+  .about-us-container {
+    max-width: 768px;
+    padding: 0;
+  }
+  .about-us-text {
+    padding: 50px 136px 50px 32px;
+    background: #fbfbfb;
+  }
+
+  .yachtjet {
+    font-size: 48px;
+    margin-bottom: 50px;
+    width: 536px;
+  }
+
+  .about-us-list {
+    width: 389px;
+  }
+
+  ul .art-technology {
+    font-size: 23px;
+    /* width: 389px; */
+  }
+
+  .yacht-you-choose {
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    /* width: 385px; */
+  }
+}
+	
+@media only screen and (min-width: 1280px) {
+  .about-us {
+    margin-top: -35px;
+  }
+
+  .about-us-container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .about-us-text {
+    padding: 50px 50px 100px 50px;
+    display: flex;
+  }
+
+  .yachtjet {
+    width: 537px;
+    margin-bottom: 0;
+    margin-right: 299px;
+  }
+
+  .about-us-list {
+    width: 404px;
+  }
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1440px) {
+  .about-us-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 
-	.about-us {
-		padding-bottom: 150px;
-	}
+  .yachtjet {
+    margin-right: 299px;
+  }
 
-	.about-us-container {
-	  max-width: 768px;
-	  padding: 0;
-	}
-	.about-us-text {
-		padding: 50px 136px 50px 32px;
-		background: #FBFBFB;
-	}
-
-	.yachtjet {
-		font-size: 48px;
-		margin-bottom: 50px;
-		width: 536px;
-
-	}
-
-	.about-us-list {
-		width: 389px;
-	}
-
-	ul .art-technology {
-
-		font-size: 23px;
-		/* width: 389px; */
-	}
-
-	.yacht-you-choose {
-		font-size: 13px;
-		line-height: 1.15;
-		letter-spacing: -0.26px;
-		/* width: 385px; */
-	}
-
- }
- 
- @media only screen and (min-width: 1280px) {
-	.about-us-container {
-	  max-width: 1280px;
-	  margin: 0 auto;
-
-	}
-
-	.about-us-text {
-		padding: 50px 50px 100px 50px;
-		display: flex;
-	}
-
-	.yachtjet {
-		width: 537px;
-		margin-bottom: 0;
-		margin-right: 189px;
-	}
-
-	.about-us-list {
-		width: 354px;
-	}
-
-
-
-
- }
-
-
-
-
-
-
- 
- @media only screen and (min-width: 1440px) {
-	.about-us-container {
-	  max-width: 1440px;
-	  margin: 0 auto;
-	}
-
-	.yachtjet {
-		margin-right: 299px;
-	}
-
-	.about-us-list {
-		width: 404px;
-	}
-	
-
-
- }
-
+  .about-us-list {
+    width: 404px;
+  }
+}

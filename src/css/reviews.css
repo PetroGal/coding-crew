@@ -1,6 +1,6 @@
 
 .rewievs {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
 }
 
 .rewievs-title {
@@ -37,6 +37,7 @@
 
 .rewievs-list-img {
     margin: 0 auto 24px auto;
+    border-radius: 50%;
 }
 
 .rewievs-list-title {
@@ -59,14 +60,9 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 32px 32px 0 32px;
-        margin: 0 auto;
-    }
 
     .rewievs {
-        margin-bottom: 150px;
+        padding-bottom: 150px;
     }
 
     .rewievs-title {
@@ -92,11 +88,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-        padding: 32px 25px 0 25px;
-        margin: 0 auto;
-    }
 
     .rewievs {
         padding-right: 25px;
@@ -125,11 +116,6 @@
 }
 
 @media only screen and (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
-        padding: 32px 25px 0 25px;
-        margin: 0 auto;
-    }
 
     .rewievs-list {
         gap: 32px;
