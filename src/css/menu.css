@@ -8,6 +8,7 @@
   visibility: hidden;
   pointer-events: none;
   z-index: 1;
+  max-width: 768px;
 }
 
 .is-open {
