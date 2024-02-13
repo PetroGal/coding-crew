@@ -1,6 +1,6 @@
 .backdrope {
   width: 100%;
-  max-height: 812px;
+  min-height: 100%;
   position: fixed;
   top: 0;
   background-color: #0e1823;
@@ -71,7 +71,7 @@
   padding-left: 142px;
   padding-right: 142px;
   padding-top: 259px;
-  padding-bottom: 0;
+  padding-bottom: 259px;
   gap: 4px;
   text-align: center;
   align-items: center;
